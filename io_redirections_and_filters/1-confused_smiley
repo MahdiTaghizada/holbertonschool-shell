@@ -1,3 +1,2 @@
 #!/bin/bash
-export LC_ALL=C.UTF-8
-echo "(Ôo)'"
+echo -e "(\xC3\x94o)'"

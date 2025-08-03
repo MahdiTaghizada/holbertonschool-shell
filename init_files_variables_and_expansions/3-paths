@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((2#$BINARY))
+echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))

@@ -1,3 +1,2 @@
 #!/bin/bash
-IFS=':' read -ra ADDR <<< "$PATH"
-echo "${#ADDR[@]}"
+echo $((2#$BINARY))
